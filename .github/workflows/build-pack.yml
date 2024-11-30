@@ -27,3 +27,17 @@ jobs:
           name: client
           path: client
 
+      - run: packwiz mr export --output jars.zip
+      - run: unzip jars.zip -d jars
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jars
+          path: jars
+
+      - run: packwiz cf export --side both --output both.zip
+      - run: unzip both.zip -d both 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: both
+          path: both
+
