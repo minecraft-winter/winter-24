@@ -28,9 +28,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            "server-${{ steps.read_toml.outputs.value }}.zip"
-            "client-${{ steps.read_toml.outputs.value }}.zip"
-            "jars-${{ steps.read_toml.outputs.value }}.zip"
+            server-${{ steps.read_toml.outputs.value }}.zip
+            client-${{ steps.read_toml.outputs.value }}.zip
+            jars-${{ steps.read_toml.outputs.value }}.zip
 
       - name: Upload to CurseForge
         uses: itsmeow/curseforge-upload@v3
