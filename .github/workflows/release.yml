@@ -1,0 +1,47 @@
+name: Release Pack
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actionhippie/install-packwiz@v1
+
+      - uses: SebRollen/toml-action@v1.2.0
+        id: read_toml
+        with:
+          file: 'pack.toml'
+          field: 'version'
+
+      - run: packwiz cf export --side server --output "server-${{ steps.read_toml.outputs.value }}.zip"
+      - run: packwiz cf export --side client --output "client-${{ steps.read_toml.outputs.value }}.zip"
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            "server-${{ steps.read_toml.outputs.value }}.zip"
+            "client-${{ steps.read_toml.outputs.value }}.zip"
+
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: "${{ secrets.CURSEFORGE_API_KEY }}"
+          file_path: "server-${{ steps.read_toml.outputs.value }}.zip"
+          game_endpoint: "minecraft"
+          project_id: "1150538"
+          game_versions: "Minecraft 1.20.1,Forge"
+
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: "${{ secrets.CURSEFORGE_API_KEY }}"
+          file_path: "client-${{ steps.read_toml.outputs.value }}.zip"
+          game_endpoint: "minecraft"
+          project_id: "1150538"
+          game_versions: "Minecraft 1.20.1,Forge"
