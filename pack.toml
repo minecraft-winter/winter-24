@@ -1,0 +1,12 @@
+name = "Winter 24"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "78e2c7cfe828c195bdb782e63213a8893045e976940af5e256a7b095e0881c86"
+
+[versions]
+forge = "47.3.12"
+minecraft = "1.20.1"
