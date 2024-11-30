@@ -14,14 +14,16 @@ jobs:
       - uses: actionhippie/install-packwiz@v1
 
       - run: packwiz cf export --side server --output server.zip
+      - run: unzip server.zip -d server
+      - uses: actions/upload-artifact@v4
+        with:
+          name: server
+          path: server
+
       - run: packwiz cf export --side client --output client.zip
-
+      - run: unzip client.zip -d client 
       - uses: actions/upload-artifact@v4
         with:
-          name: client.zip
-          path: client.zip
+          name: client
+          path: client
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: server.zip
-          path: server.zip
