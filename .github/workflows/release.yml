@@ -8,6 +8,8 @@ on:
 jobs:
   pack:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actionhippie/install-packwiz@v1
@@ -20,6 +22,7 @@ jobs:
 
       - run: packwiz cf export --side server --output "server-${{ steps.read_toml.outputs.value }}.zip"
       - run: packwiz cf export --side client --output "client-${{ steps.read_toml.outputs.value }}.zip"
+      - run: packwiz mr export --output "jars-${{ steps.read_toml.outputs.value }}.zip"
 
       - name: Release
         uses: softprops/action-gh-release@v2
@@ -27,6 +30,7 @@ jobs:
           files: |
             "server-${{ steps.read_toml.outputs.value }}.zip"
             "client-${{ steps.read_toml.outputs.value }}.zip"
+            "jars-${{ steps.read_toml.outputs.value }}.zip"
 
       - name: Upload to CurseForge
         uses: itsmeow/curseforge-upload@v3
