@@ -13,7 +13,7 @@ jobs:
 
       - uses: actionhippie/install-packwiz@v1
 
-      - run: packwiz cf export pack.zip
+      - run: packwiz cf export --output pack.zip
 
       - uses: actions/upload-artifact@v4
         with:
