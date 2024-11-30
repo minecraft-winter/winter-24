@@ -5,7 +5,7 @@ on:
   - pull_request
 
 jobs:
-  test:
+  pack:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,9 +13,15 @@ jobs:
 
       - uses: actionhippie/install-packwiz@v1
 
-      - run: packwiz cf export --output pack.zip
+      - run: packwiz cf export --side server --output server.zip
+      - run: packwiz cf export --side client --output client.zip
 
       - uses: actions/upload-artifact@v4
         with:
-          name: pack
-          path: pack.zip
+          name: client.zip
+          path: client.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: server.zip
+          path: server.zip
