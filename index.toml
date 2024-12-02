@@ -56,6 +56,16 @@ hash = "fd382cec52297ec03c27c9127dcc2d0b2c288262ce5680a1e7b6d9d8bfc04ece"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "1abd27aa185c9b2719bf95c12b10413dd5076f4a8cb5640e414982f7bd739053"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "0fb0930b8a0edd72bb5b6b86f5d7ae942e73b8486c25822a5daec7a15c35c564"
+metafile = true
+
+[[files]]
 file = "mods/terralith.pw.toml"
 hash = "b0978cb7ae7b79c5be89b323ca1bd038f693ff6d11c43dfcbd63953964149af2"
 metafile = true
