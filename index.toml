@@ -81,6 +81,16 @@ hash = "5a7cbd5bc7dd5ac36cdb21f225e746d67bfb76523ca570afe78a5e421839040a"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "fc87d67d950a471f25000ca5a5c0cc80eee30d6ab79e3a998bc7ac8a862ab3b7"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "a01017e22438b69e560478b12aece5b8772ec4e3caa6d77070d50ea05d4ab45d"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "d0d14c38427cf19c6f1244d4a6a0d05ad1a3d22d9f8b4f0eb083cef7f2ad407d"
 metafile = true
