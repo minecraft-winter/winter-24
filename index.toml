@@ -11,6 +11,11 @@ hash = "4d444c384244a5bc88deb6a7e3ef1e42366cb4dc20557cff7d85fe5302ffafc2"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "56ca5adf65660e95f1acd0a30e3fed0565e490bc545e7b32c628051a5926632c"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "8782d120f8b3e8439595af87a84d8e955ecdcf2e7abcf1a2ce85c413f085daa3"
 metafile = true
@@ -78,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "5a7cbd5bc7dd5ac36cdb21f225e746d67bfb76523ca570afe78a5e421839040a"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "8b4c28cfcf829781303c7e590f386cd3e73cf1952bf911369948f9e8322e3d58"
 metafile = true
 
 [[files]]
