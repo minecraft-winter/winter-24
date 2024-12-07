@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "ad756e946988975c8908e56c9a5fef5e944122abb42a6ff5ab27b198ca472d92"
+hash = "33a72d14d33abd2bd32d2f2986930ae58a8d6dde581656a08b466df10d0250e8"
 metafile = true
 
 [[files]]
@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ea0f43efd9259ee66c9b329cdaddd05ecbaae9e74716a87def778c80fd73c8e7"
+hash = "9cb855eb3e57e51178c2ecead3e8067af94ea63dbfc48d6062afce25093c65ed"
 metafile = true
 
 [[files]]
