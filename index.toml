@@ -6,8 +6,18 @@ hash = "3fa99497f4c394f57de56e51f504f16109d899fe1fe38542641355e0793a2e37"
 metafile = true
 
 [[files]]
+file = "mods/aquaculture-delight.pw.toml"
+hash = "9ebc6bed640c567887afff597d05a4679d2ac9bb6f5a49b8b203e754d36d4051"
+metafile = true
+
+[[files]]
 file = "mods/aquaculture.pw.toml"
 hash = "4d444c384244a5bc88deb6a7e3ef1e42366cb4dc20557cff7d85fe5302ffafc2"
+metafile = true
+
+[[files]]
+file = "mods/aquamirae-delight.pw.toml"
+hash = "abeab4b5068501c1f8f2fa2625ca747ec40ec8586c0eeded7d6ee388b18d2ebe"
 metafile = true
 
 [[files]]
@@ -28,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "e50740a50bdeef70e78fc991fbc8eee9dbb4bacd11f5e7cbf10f4c46cb5fd0aa"
+metafile = true
+
+[[files]]
+file = "mods/display-delight.pw.toml"
+hash = "7572f8836056240fe046a4701866dc719e680475b4285950dfa6928f3e971dfe"
 metafile = true
 
 [[files]]
