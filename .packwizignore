@@ -1,4 +1,8 @@
 # Exclude README
 README.md
 
+# CI workflows
 .github/
+
+# Manually downloaded jars used for modrinth export as a jar-download hack
+manual-downloads/
