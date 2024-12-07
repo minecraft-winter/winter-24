@@ -1,4 +1,4 @@
 # Exclude README
-/README.md
+README.md
 
 .github/

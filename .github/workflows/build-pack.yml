@@ -13,6 +13,8 @@ jobs:
 
       - uses: actionhippie/install-packwiz@v1
 
+      - run: mkdir -p "${{ vars.RUNNER_TEMP }}/cache/import" && cp manual-downloads/* "${{ vars.RUNNER_TEMP }}/cache/import/"
+
       - run: packwiz cf export --side server --output server.zip
       - run: unzip server.zip -d server
       - uses: actions/upload-artifact@v4
@@ -27,7 +29,7 @@ jobs:
           name: client
           path: client
 
-      - run: packwiz mr export --output jars.zip
+      - run: packwiz mr export --cache "${{ vars.RUNNER_TEMP}}/cache" --output jars.zip
       - run: unzip jars.zip -d jars
       - uses: actions/upload-artifact@v4
         with:

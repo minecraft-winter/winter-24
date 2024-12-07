@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "manual-downloads/aquaculture_delight_1.0.0_forge_1.20.1.jar"
+hash = "0be69b0e9ec97e13ef1f09d7281fd9367208188f53bb0b68e6e114900e9af071"
+
+[[files]]
+file = "manual-downloads/displaydelight-1.2.0.jar"
+hash = "888f59edc90189cc2a6f04c8bc7ff294a711ce1902dc6751580420a18db6fbbe"
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "3fa99497f4c394f57de56e51f504f16109d899fe1fe38542641355e0793a2e37"
 metafile = true
