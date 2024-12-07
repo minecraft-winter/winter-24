@@ -20,11 +20,11 @@ jobs:
           file: 'pack.toml'
           field: 'version'
 
-      - run: mkdir -p "${{ vars.RUNNER_TEMP }}/cache/import" && cp manual-downloads/* "${{ vars.RUNNER_TEMP }}/cache/import/"
+      - run: mkdir -p "${{ runner.temp }}/cache/import" && cp manual-downloads/* "${{ runner.temp }}/cache/import/"
 
       - run: packwiz cf export --side server --output "server-${{ steps.read_toml.outputs.value }}.zip"
       - run: packwiz cf export --side client --output "client-${{ steps.read_toml.outputs.value }}.zip"
-      - run: packwiz mr export --cache "${{ vars.RUNNER_TEMP}}/cache" --output "jars-${{ steps.read_toml.outputs.value }}.zip"
+      - run: packwiz mr export --cache "${{ runner.temp}}/cache" --output "jars-${{ steps.read_toml.outputs.value }}.zip"
 
       - name: Release
         uses: softprops/action-gh-release@v2
