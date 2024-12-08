@@ -46,6 +46,11 @@ hash = "7572f8836056240fe046a4701866dc719e680475b4285950dfa6928f3e971dfe"
 metafile = true
 
 [[files]]
+file = "mods/dynmapforge.pw.toml"
+hash = "a9df7957db29bd5934360117797e75baa6fc0a12a9ef99c1bddb66a7ad30a7ce"
+metafile = true
+
+[[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "8ec53ff4ff4b93bf9f5ec156c80df77a6fcae181ae0a2737e5f7f7e8f6a0886b"
 metafile = true
