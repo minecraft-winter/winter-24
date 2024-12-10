@@ -61,6 +61,11 @@ hash = "33a72d14d33abd2bd32d2f2986930ae58a8d6dde581656a08b466df10d0250e8"
 metafile = true
 
 [[files]]
+file = "mods/fruits-delight.pw.toml"
+hash = "5e94d799a7ef13885d86ba448436c2d084aa3ac525e91718a7449c47366805df"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "8da51e31d146df07a51fa173d5c1d3f99affb78e478945e2c19f6af412212cd6"
 metafile = true
