@@ -1,11 +1,11 @@
 name = "Winter 24"
-version = "0.0.8"
+version = "0.0.9"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "04b95fdbdf35827d20f21fde1babd0cd96fc3b5484eb3f1a6aa9ae9422542bda"
+hash = "aa246cbcc8b644dc3fea4e93ddc1b965996747b0c7d868219bd2143afcaa6940"
 
 [versions]
 forge = "47.3.12"
