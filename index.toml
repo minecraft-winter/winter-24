@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "3fa99497f4c394f57de56e51f504f16109d899fe1fe38542641355e0793a2e37"
+hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/aquamirae-delight.pw.toml"
-hash = "abeab4b5068501c1f8f2fa2625ca747ec40ec8586c0eeded7d6ee388b18d2ebe"
+hash = "c07d556154ab577560451826dbf14ad12f242b917476daf0fb8d2fddbe8250b8"
 metafile = true
 
 [[files]]
@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-contraption-terminals.pw.toml"
-hash = "2cc22ef9b2976725a1ffeb3d046dc5a69faa320b836ed67312e9242eff0149f5"
+hash = "c8d75db3bcd68917f3302e255d529123b84dab215cf2b7cdbd82986ac204e195"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/display-delight.pw.toml"
-hash = "7572f8836056240fe046a4701866dc719e680475b4285950dfa6928f3e971dfe"
+hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/fruits-delight.pw.toml"
-hash = "5e94d799a7ef13885d86ba448436c2d084aa3ac525e91718a7449c47366805df"
+hash = "f0203b9e2101f458b012684c733ef8ecda978c5c565f53fdd0d93541d880b62c"
 metafile = true
 
 [[files]]
@@ -97,12 +97,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1abd27aa185c9b2719bf95c12b10413dd5076f4a8cb5640e414982f7bd739053"
+hash = "18667a3cefaf4c6e75fda19614ecae75fa2131ff8d035b80b2c0eed9363b00e2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9cb855eb3e57e51178c2ecead3e8067af94ea63dbfc48d6062afce25093c65ed"
+hash = "9238cf88d172ba03ddc678d4b8afbcee547c0d60853a66927912dd99905804eb"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
-hash = "5a7cbd5bc7dd5ac36cdb21f225e746d67bfb76523ca570afe78a5e421839040a"
+hash = "fe922160b638f4daf156bbdadd0d6a7b4739b2bf06e74d28661b11627041c2aa"
 metafile = true
 
 [[files]]
@@ -127,12 +127,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "fc87d67d950a471f25000ca5a5c0cc80eee30d6ab79e3a998bc7ac8a862ab3b7"
+hash = "e5aa382aced15592d665e77ca52c82d65ea753017d862e0db7aeaecb2a9ffb2f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "a01017e22438b69e560478b12aece5b8772ec4e3caa6d77070d50ea05d4ab45d"
+hash = "54ad33cf1eb06e8bd5179706f90eedbda07eb60216f1bd40017c205caa2fbf4e"
 metafile = true
 
 [[files]]
