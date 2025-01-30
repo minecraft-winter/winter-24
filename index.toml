@@ -41,6 +41,11 @@ hash = "8782d120f8b3e8439595af87a84d8e955ecdcf2e7abcf1a2ce85c413f085daa3"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "e070f775c1f909298453169788642d63c8058af7df55a51dc877bcc2675725b2"
+metafile = true
+
+[[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "e50740a50bdeef70e78fc991fbc8eee9dbb4bacd11f5e7cbf10f4c46cb5fd0aa"
 metafile = true
@@ -53,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/dynmapforge.pw.toml"
 hash = "a9df7957db29bd5934360117797e75baa6fc0a12a9ef99c1bddb66a7ad30a7ce"
+metafile = true
+
+[[files]]
+file = "mods/end-portal-recipe.pw.toml"
+hash = "54bb4ff3eed88dd016ccefff6f162aaaceb8eefe8e51b76c796f34107eaac45d"
 metafile = true
 
 [[files]]
@@ -76,6 +86,11 @@ hash = "8da51e31d146df07a51fa173d5c1d3f99affb78e478945e2c19f6af412212cd6"
 metafile = true
 
 [[files]]
+file = "mods/more-concrete.pw.toml"
+hash = "4a916634f4924fc236c1681d0dff3331cc178afb8f22af4c668ec88014f1a842"
+metafile = true
+
+[[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
 metafile = true
@@ -93,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/obscure-api.pw.toml"
 hash = "fd382cec52297ec03c27c9127dcc2d0b2c288262ce5680a1e7b6d9d8bfc04ece"
+metafile = true
+
+[[files]]
+file = "mods/simplehats.pw.toml"
+hash = "9982ecd54ac42374a1949e01ac7eda3deeed4721d86fcbb0199baf6cc6796500"
 metafile = true
 
 [[files]]
