@@ -1,0 +1,13 @@
+name = "More Concrete"
+filename = "moreconcrete-1.4.7-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a8611ebcaf7a3f3a8c7579ddcba7dda24cf34b2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4755927
+project-id = 545354
