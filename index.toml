@@ -12,17 +12,17 @@ metafile = true
 
 [[files]]
 file = "mods/aquaculture-delight.pw.toml"
-hash = "67e7c136e926a0023d1c41e4a6d67179200158c62bb02245106d2f4a8091201f"
+hash = "624514fd57a5bad649068f8f2d6c45d88228249a266bd61b45cb749c42499766"
 metafile = true
 
 [[files]]
 file = "mods/aquaculture.pw.toml"
-hash = "7e338a2d5441cc1a83d25f0b14197a1c7a1f5cd5be3df03635160064d148c150"
+hash = "3b415bfd315415768231c73bb23fae92513de1f46de8baee58878eea0b5aa2f2"
 metafile = true
 
 [[files]]
 file = "mods/aquamirae-delight.pw.toml"
-hash = "a61620a74df41bde4fb97e6198ec0a424cb76a353804aa802b33b16b7565b9c6"
+hash = "a43acd4b5a8676a0738c8a9d92d70f9d8ec2eed09c517ac9b91823e94b8de7bc"
 metafile = true
 
 [[files]]
@@ -32,27 +32,27 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "3a85aa0f6219642c06cee70ea836129da9f414a16fe1646a27d504d1f3624220"
+hash = "4701717d9153e470a0306e06b8435fcd2cb00902ca3843da41286359c3367f48"
 metafile = true
 
 [[files]]
 file = "mods/create-contraption-terminals.pw.toml"
-hash = "fedcb7e62ef43496e0249571d67d25278e3fbdd875ff839eecd1b98e6c7f1984"
+hash = "45181af6516b3adc99f7d564763ee0db8eb70cd133a09d3266a903a9f755c5a8"
 metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "83aebb81542f4d8aae86faac184bfb0068da8e5c6840e4f6a7cfeec05c231d3b"
+hash = "045ad5c24368559e6f15714077891e67162f10d0baf802d887c1af87ef7efd4f"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9758ece57d3d9bd3790dd49f7f4d5b0fd19fa1169ed77ba5afc4c04712ed4727"
+hash = "75a75968992dd53ea69b9f99be9ac5415ddfce7ce286face8a323969e310939e"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "216d4de419bf3efeeeaea2f63346a46f14289280790ac91304f04a9d3e202ea5"
+hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
 metafile = true
 
 [[files]]
@@ -72,17 +72,17 @@ metafile = true
 
 [[files]]
 file = "mods/end-portal-recipe.pw.toml"
-hash = "c9c4de08967ff151111899b714b28262deaba92098f857343a1764d06839c817"
+hash = "a248a9fb0a63e9874f57b691bcd6cf41e9272cb0c5e7f7c2a5521cf1e87e4d07"
 metafile = true
 
 [[files]]
 file = "mods/ends-delight.pw.toml"
-hash = "7d2363b28eaffcc66d2eddf1d237c4f0f6d8f9882410758f3e5bfe4cfeca0d6e"
+hash = "63a9fdacf232df08a520fb1f25d2d1e878551fef4d18722c075e04d6291f5ed1"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "fc33d61e6cbdc2e9499f253d0a05930869a3d8fbda0688b8ea9d35922c43d5c1"
+hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/fruits-delight.pw.toml"
-hash = "d5c473be96b24127e36fb557d75f01dfb60fe9fa9f9feb9e95703caab3c8ab19"
+hash = "88b6da55fc90c2ae2055c4556b0cb9d344848ece37f6766819e0e35efa849983"
 metafile = true
 
 [[files]]
@@ -147,12 +147,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "2c777ea542e3650aa10e76a8195cfa0a96444dde64babe040b73bb73b75760aa"
+hash = "07e090937f99c604753cc6e5db5d0213163ceec10d4ee4ecc2875a5547cd0a53"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "be09ac56dcb557af1d50e9f5da1e36c69076a9ac9bba68be111944cfaab1fcde"
+hash = "9670565e95122b3ef723d243712738ff42d5e4c130227b26416100dcfe27e385"
 metafile = true
 
 [[files]]
@@ -182,17 +182,17 @@ metafile = true
 
 [[files]]
 file = "mods/tree-harvester.pw.toml"
-hash = "6d8623367ebe3e5cda1a36048596d5c167e92ac116483eb01d8e17ece02a6f7e"
+hash = "81616d4497a861461df0ef3bb5dc068ac68b89aeff23c0ca5fcbdf1d3be91bd6"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "e150dde6a0f73c21ebb82cf69769b993c0263d55b4e3747524452442e371f203"
+hash = "8c345dee68c04839ed832b0f9428df7701d214bd729c453017fa601bd051f84f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "5cc2e3d94fde6501732a7b80bd35f5e7e57837a83e8439a405b0dee19ad110fe"
+hash = "8d43bc249fa19f6f8952d530c990377669e00559063a96da67a456d5f3d4f79e"
 metafile = true
 
 [[files]]
