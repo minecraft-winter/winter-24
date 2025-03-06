@@ -1,0 +1,13 @@
+name = "Scarecrows' Territory"
+filename = "scarecrowsterritory-1.1.11e-forge-mc1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bc4fc1fcdc8cf16ba5e8545bb48e29fa04249ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5297111
+project-id = 435965
