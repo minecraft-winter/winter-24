@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "how"
-hash = "8f9a285f0944695ef23a79424c8709cfe51c207aae74545a291583e900c3bf46"
-
-[[files]]
 file = "mods/aether.pw.toml"
 hash = "27579ec16e5bd357578524cf357eacc330076fd48804858ba35c66093014095b"
 metafile = true
